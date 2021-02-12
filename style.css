@@ -1,14 +1,20 @@
+* {
+    --cor-bg-principal: #1C1F3E;
+    --cor-letra-font: #E7E6E6;
+  }
+
+
 @media (min-width:1200px){
 
     *{
         font-family: 'Ubuntu', sans-serif;
         padding: 0;
         margin: 0;
-        zoom: 98%;
+        
     }
 
     body{
-        background-color: #90CBF0;
+        background-color: var(--cor-bg-principal);
         
     }
 
@@ -19,7 +25,7 @@
 
     /*Cabeçaho*/
     #cabecalho {
-        color: white;
+        color: var(--cor-letra-font);
         display: flex;
         flex-direction: column;
         columns: 360px;
@@ -90,7 +96,7 @@
     }
 
     .icons h5{
-        color: white;
+        color: var(--cor-letra-font);
         font-size: 20px;
 
     }
@@ -109,14 +115,14 @@
     }
 
     body{
-        background-color: #90CBF0;
+        background-color: var(--cor-bg-principal);
         
     }
 
 
     .icons,header,cabecalho{
         display: flex;
-        color: white;
+        color: var(--cor-letra-font);
     }
 
 
@@ -175,7 +181,7 @@
     }
 
     .icons h5{
-        color: white;
+        color: var(--cor-letra-font);
         font-size: 17px;
         margin: 10px;
     }
@@ -197,14 +203,14 @@
 
 
     body{
-        background-color: #90CBF0;
+        background-color: var(--cor-bg-principal);
         
     }
 
 
     .icons,header,cabecalho{
         display: flex;
-        color: white;
+        color: var(--cor-letra-font);
     }
 
 
@@ -263,7 +269,7 @@
     }
 
     .icons h5{
-        color: white;
+        color: var(--cor-letra-font);
         font-size: 17px;
         margin: 10px;
     }
@@ -277,7 +283,7 @@
     }
 
     body{
-        background-color: #90CBF0;
+        background-color: var(--cor-bg-principal);
     }
 
     header{
@@ -287,7 +293,7 @@
 
     /*Cabeçaho*/
     #cabecalho {
-        color: white;
+        color: var(--cor-letra-font);
         display: flex;
         flex-direction: column;
         columns: 360px;
@@ -354,7 +360,7 @@
     }
 
     .icons h5{
-        color: white;
+        color: var(--cor-letra-font);
         font-size: 20px;
 
     }
@@ -369,7 +375,7 @@
     }
 
     body{
-        background-color: #90CBF0;
+        background-color: var(--cor-bg-principal);
     }
 
     header{
@@ -381,7 +387,7 @@
     #cabecalho {
         
 
-        color: white;
+        color: var(--cor-letra-font);
         display: flex;
         flex-direction: column;
         columns: 360px;
@@ -448,7 +454,7 @@
     }
 
     .icons h5{
-        color: white;
+        color: var(--cor-letra-font);
         font-size: 20px;
 
     }
@@ -463,7 +469,7 @@
     }
 
     body{
-        background-color: #90CBF0;
+        background-color: var(--cor-bg-principal);
     }
 
     header{
@@ -475,7 +481,7 @@
     #cabecalho {
         
 
-        color: white;
+        color: var(--cor-letra-font);
         display: flex;
         flex-direction: column;
         columns: 360px;
@@ -542,7 +548,7 @@
     }
 
     .icons h5{
-        color: white;
+        color: var(--cor-letra-font);
         font-size: 20px;
 
     }
@@ -557,7 +563,7 @@
     }
 
     body{
-        background-color: #90CBF0;
+        background-color: var(--cor-bg-principal);
     }
 
     header{
@@ -569,7 +575,7 @@
     #cabecalho {
         
 
-        color: white;
+        color: var(--cor-letra-font);
         display: flex;
         flex-direction: column;
         columns: 360px;
@@ -636,7 +642,7 @@
     }
 
     .icons h5{
-        color: white;
+        color: var(--cor-letra-font);
         font-size: 20px;
 
     }
@@ -656,14 +662,14 @@
 
 
     body{
-        background-color: #90CBF0;
+        background-color: var(--cor-bg-principal);
         
     }
 
 
     .icons,header,cabecalho{
         display: flex;
-        color: white;
+        color: var(--cor-letra-font);
     }
 
 
@@ -722,15 +728,113 @@
     }
 
     .icons h5{
-        color: white;
+        color: var(--cor-letra-font);
         font-size: 17px;
         margin: 10px;
     }
 }
 
+@media(min-width:1080px){
+    *{
+        font-family: 'Ubuntu', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        background-color: var(--cor-bg-principal);
+    }
+
+    header{
+        display: flex;
+    }
+
+
+    /*Cabeçaho*/
+    #cabecalho {
+        
+
+        color: var(--cor-letra-font);
+        display: flex;
+        flex-direction: column;
+        columns: 360px;
+        width: 40vw;
+        padding: 0 5vw;
+        height: 75vh;
+    }
+
+    header img{
+        margin-right: 0vw;
+        width: 50vw;
+    }
+
+    #cabecalho h1{
+        position: relative;
+        top: 10vh;
+
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    #cabecalho p{
+        position: relative;
+        top: 10vh;
+
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+
+    /*Botões*/
+
+    .button a {
+        margin-left: 5vh;
+    }
+
+    .button a#estudar{
+        margin-left: 10vh;
+    }
+
+
+    .button a img:active{
+        position: relative;
+        top: 10px;
+    }
+
+    .button a img:hover{
+        position: relative;
+        bottom: 5px;
+        cursor: pointer;
+    }
+
+    /* Icones */
+
+    .icons{
+        display: flex;
+        position: absolute;
+        right: 6vw;
+        bottom: 40px;
+    }
+
+    .icons a{
+        margin-left: 10px;
+    }
+
+    .icons h5{
+        color: var(--cor-letra-font);
+        font-size: 20px;
+
+    }
+}
+
+
+
+
+
 body{
-    background-color: #90CBF0;
-    color: white;
+    background-color: var(--cor-bg-principal);
+    color: var(--cor-letra-font);
+    zoom: 85%;
 }
 
 
